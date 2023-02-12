@@ -1,0 +1,15 @@
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/task2.csproj.AssemblyReference.cache
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/task2.GeneratedMSBuildEditorConfig.editorconfig
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/task2.AssemblyInfoInputs.cache
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/task2.AssemblyInfo.cs
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/task2.csproj.CoreCompileInputs.cache
+/home/ivan/Документы/WebinarC#1/task2/bin/Debug/net6.0/task2
+/home/ivan/Документы/WebinarC#1/task2/bin/Debug/net6.0/task2.deps.json
+/home/ivan/Документы/WebinarC#1/task2/bin/Debug/net6.0/task2.runtimeconfig.json
+/home/ivan/Документы/WebinarC#1/task2/bin/Debug/net6.0/task2.dll
+/home/ivan/Документы/WebinarC#1/task2/bin/Debug/net6.0/ref/task2.dll
+/home/ivan/Документы/WebinarC#1/task2/bin/Debug/net6.0/task2.pdb
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/task2.dll
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/ref/task2.dll
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/task2.pdb
+/home/ivan/Документы/WebinarC#1/task2/obj/Debug/net6.0/task2.genruntimeconfig.cache
