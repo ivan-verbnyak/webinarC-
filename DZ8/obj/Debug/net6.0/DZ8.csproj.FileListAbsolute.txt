@@ -1,0 +1,15 @@
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/bin/Debug/net6.0/DZ8
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/bin/Debug/net6.0/DZ8.deps.json
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/bin/Debug/net6.0/DZ8.runtimeconfig.json
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/bin/Debug/net6.0/DZ8.dll
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/bin/Debug/net6.0/ref/DZ8.dll
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/bin/Debug/net6.0/DZ8.pdb
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/DZ8.csproj.AssemblyReference.cache
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/DZ8.GeneratedMSBuildEditorConfig.editorconfig
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/DZ8.AssemblyInfoInputs.cache
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/DZ8.AssemblyInfo.cs
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/DZ8.csproj.CoreCompileInputs.cache
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/DZ8.dll
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/ref/DZ8.dll
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/DZ8.pdb
+/home/ivan/Документы/WebinarC#1/DZ6/DZ8/obj/Debug/net6.0/DZ8.genruntimeconfig.cache
