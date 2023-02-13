@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Input numbers: ");
+﻿//Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+Console.WriteLine("Input numbers: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 int c = Convert.ToInt32(Console.ReadLine());
