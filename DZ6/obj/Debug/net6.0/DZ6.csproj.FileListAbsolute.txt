@@ -1,0 +1,5 @@
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.csproj.AssemblyReference.cache
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.GeneratedMSBuildEditorConfig.editorconfig
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.AssemblyInfoInputs.cache
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.AssemblyInfo.cs
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.csproj.CoreCompileInputs.cache
