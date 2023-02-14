@@ -3,3 +3,13 @@
 /home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.AssemblyInfoInputs.cache
 /home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.AssemblyInfo.cs
 /home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.csproj.CoreCompileInputs.cache
+/home/ivan/Документы/WebinarC#1/DZ6/bin/Debug/net6.0/DZ6
+/home/ivan/Документы/WebinarC#1/DZ6/bin/Debug/net6.0/DZ6.deps.json
+/home/ivan/Документы/WebinarC#1/DZ6/bin/Debug/net6.0/DZ6.runtimeconfig.json
+/home/ivan/Документы/WebinarC#1/DZ6/bin/Debug/net6.0/DZ6.dll
+/home/ivan/Документы/WebinarC#1/DZ6/bin/Debug/net6.0/ref/DZ6.dll
+/home/ivan/Документы/WebinarC#1/DZ6/bin/Debug/net6.0/DZ6.pdb
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.dll
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/ref/DZ6.dll
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.pdb
+/home/ivan/Документы/WebinarC#1/DZ6/obj/Debug/net6.0/DZ6.genruntimeconfig.cache
