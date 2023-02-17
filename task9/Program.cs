@@ -1,10 +1,10 @@
 ﻿int[] points = new int[2];
-for (int i = 0; i < points.length; i++)
+for (int i = 0; i < points.Length; i++)
 {
     while (true)
     {
         points[i] = Convert.ToInt32(Console.ReadLine());
-        if (points[i] ! = 0)
+        if (points[i] != 0)
             break;
         else
             System.Console.WriteLine("Incorrect input");
