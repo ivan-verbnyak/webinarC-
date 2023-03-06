@@ -4,11 +4,18 @@
 Задача 42: Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 45 -> 101101
 3 -> 11
-2 -> 10 */
+2 -> 10 
+
+Задача 44: Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: 0 и 1.
+Если N = 5 -> 0 1 1 2 3
+Если N = 3 -> 0 1 1
+Если N = 7 -> 0 1 1 2 3 5 8
+
+Задача 45: Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.*/
 
 
 Console.Clear();
-Console.WriteLine("1 - Task39.\n \n2 - Task40\n \n3 - Task42");
+Console.WriteLine("1 - Task39.\n \n2 - Task40\n \n3 - Task42\n \n4 - Task44\n \n5 - Task45");
 
 int numberOfTask = Prompt("Enter the issue number:");
 switch (numberOfTask)
@@ -26,6 +33,16 @@ switch (numberOfTask)
                 case 3:
                 Console.Clear();
                 Task42();
+                break;
+
+                case 4:
+                Console.Clear();
+                Task44();
+                break;
+
+                case 5:
+                Console.Clear();
+                Task45();
                 break;
 
                 default:
@@ -117,4 +134,81 @@ static void Task42()
     }
 
     Console.WriteLine("Binary: {0}", bin);
+}
+
+static void Task44()
+{
+    /*int numb = Prompt("input number: ");
+
+    int F(int n)
+    {
+        if(n == 1 || n == 2) return 1;
+
+        else return F(n-1) + F(n-2);
+    }
+    for (int i = 1; i < numb; i++)
+    {
+        System.Console.WriteLine(F(i));
+    }*/
+    Console.Write("Enter the number of Fibonacci numbers: ");
+    int n = int.Parse(Console.ReadLine());
+
+    int a = 0;
+    int b = 1;
+    int c;
+
+    Console.Write(a + " " + b + " ");
+
+    for (int i = 2; i < n; i++)
+    {
+        c = a + b;
+        a = b;
+        b = c;
+
+        Console.Write(c + " ");
+    }
+
+    Console.WriteLine();
+}
+
+static void Task45()
+{
+    // int n = Prompt("Set the size of the array: ");
+    // int[] arr = new int[n];
+    // Random random = new Random();
+    // int a = Prompt("set the initial range of the array: ");
+    // int b = Prompt("set the final range of the array: ");
+    // for (int i = 0; i < arr.Length; i++)
+    // {
+    //     arr[i] = random.Next(a, b);
+    //     Console.Write($"{arr[i]}\t");
+    // }
+
+    // Console.WriteLine(" ");
+        int[] GenerateArray(int length)
+    {
+        int[] array = new int[length];
+        for (int i = 0; i < length; i++)
+            array[i] = new Random().Next(-10, 11);
+        return array;
+    }
+
+    int[] CopyArray(int[] array)
+    {
+        int[] arrayCopy = new int[array.Length];
+        for (int i = 0; i < array.Length; i++)
+            arrayCopy[i] = array[i];
+        return arrayCopy;
+    }
+
+    void PrintArray(int[] array)
+    {
+        Console.WriteLine(String.Join(" ", array));
+    }
+
+    int[] array = GenerateArray(10);
+    PrintArray(array);
+    PrintArray(CopyArray(array));
+    Console.WriteLine(array == array);
+    Console.WriteLine(array == CopyArray(array));
 }
