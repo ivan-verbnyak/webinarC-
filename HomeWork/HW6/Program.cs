@@ -44,5 +44,17 @@ static void Task41()
 
 static void Task43()
 {
-    System.Console.WriteLine(" ");
+    var k1 = Prompt("Input k1:");
+    var b1 = Prompt("Input b1");
+    var k2 = Prompt("Input k2");
+    var b2 = Prompt("Input b2");
+    
+    
+    var x = -(b1 - b2) / (k1 - k2);
+    var y = k1 * x + b1;
+    
+    x = Math.Round(x, 3);
+    y = Math.Round(y, 3);
+    
+    Console.WriteLine($"Пересечение в точке: ({x};{y})");
 }
