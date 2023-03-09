@@ -113,21 +113,20 @@ static void Task50()
 static void Task52()
 {
     int[,] arr = new int[3,4]
-    {
-        {1, 4, 7, 2},
-        {5, 9, 2, 3},
-        {8, 4, 2, 4},
-    };
-        
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        float Sum = 0;    
-        for (int j = 0; j < arr.GetLength(1); j++)
         {
-            Sum += arr[i,j];
+            {1, 4, 7, 2},
+            {5, 9, 2, 3},
+            {8, 4, 2, 4},
+        };
+   
+    for (int j = 0; j < arr.GetLength(1); j++)
+    {
+        float sum = 0;
+        for (int i = 0; i < arr.GetLength(0); i++)
+        {
+            sum += arr[i, j];
         }
-        Console.Write(Sum / arr.GetLength(1) + " ");
+        Console.Write(sum / arr.GetLength(0) + "\t");
     }
     System.Console.WriteLine();
-
 }
