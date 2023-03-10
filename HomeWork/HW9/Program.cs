@@ -45,21 +45,27 @@ int FindSumAllElements(int firstNum, int secondNum)
 
 void Task68()
 {
-    Console.WriteLine(A(Prompt("input m: "), Prompt("input n: ")));
+    Console.WriteLine(Akkerman(Prompt("input number m: "), Prompt("input number n: ")));
 }
-static int A(int m, int n)
+static int Akkerman(int m, int n)
 {
   if (m == 0)
     return n + 1;
   else
     if ((m != 0) && (n == 0))
-      return A(m - 1, 1);
+      return Akkerman(m - 1, 1);
     else
-      return A(m - 1, A(m, n - 1));
+      return Akkerman(m - 1, Akkerman(m, n - 1));
 }
 void Task64()
 {
-    System.Console.WriteLine();
+  Console.WriteLine(FindSumAllElements1(Prompt("Input number: ")));
+  Console.WriteLine();
+}
+string FindSumAllElements1(int Num)
+{
+  if(Num == 1) return Num + " ";
+  return Num + " " + FindSumAllElements1(Num - 1);
 }
 
 // Задача 64: Задайте значение N. Напишите программу, которая выведет все натуральные числа в промежутке от N до 1. Выполнить с помощью рекурсии.
